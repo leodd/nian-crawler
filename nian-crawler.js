@@ -3,7 +3,7 @@ function addScript(url) {
 	script.type = 'text/javascript';
 	script.src = url;
 	document.head.appendChild(script);
-}
+};
 
 addScript('https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js');
 addScript('https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js');
