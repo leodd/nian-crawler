@@ -21,5 +21,13 @@ A web crawler for api.nian.so
   
 第八步：你可以退回记本列表，重复上述的操作。
 
----
-本代码仅用于下载数据，不能展示数据。我将会在之后上传可以展示数据的网页或软件。
+
+# 如何浏览下载的数据
+
+注意：推荐使用edge，也可以使用Firefox，ie和chrome有可能无法获取本地数据，chrome可以通过cmd解禁对本地文件的限制。
+
+第一步：从该repository下载index.html和dist文件夹。
+
+第二步：把之前下载的记本数据解压至和index.html同一文件夹下。（举个例子：dist和index.html在C:\Users\Heping\Desktop\nian-viewer\中，那么你的记本数据就应解压至nian-viewer下。images文件夹和content.json文件应在C:\Users\Heping\Desktop\nian-viewer\你的记本文件夹\ 中）
+
+第三步：用浏览器打开index.html，输入记本文件夹的名字后回车，数据将会加载出来。如要切换记本，在左下角的输入框中输入记本名称并回车。（你可以更改记本文件夹的名称以便输入）
